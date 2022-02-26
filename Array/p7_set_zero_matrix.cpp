@@ -3,8 +3,8 @@ using namespace std;
 
 #define foi(i,n) for(int i=0;i<n;i++)
 #define foj(j,m) for(int j=0;j<m;j++)
-#define it1(i,n) for(int i=1;i<n;i++)
-#define rep(i,m) for(int i=0;i<m;i++)
+#define rei(i,n) for(int i=1;i<n;i++)
+#define rej(j,m) for(int j=1;j<m;j++)
 #define ip(n) cin>>n
 #define iparr(a) cin>>a[i]
 #define matip(v) cin>>v[i][j]
@@ -13,6 +13,19 @@ using namespace std;
 #define vecc vector<char>
 #define ll long long 
 #define pb push_back
+
+void opMatrix(vector< veci> m)
+{
+    int n = m.size(), x = m[0].size();
+    foi(i,n)
+    {
+        foj(j,x)
+        {
+            cout<<m[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+}
 
 void solve1(vector<veci> matrix){
     int n = matrix.size(),m = matrix[0].size();
@@ -41,7 +54,7 @@ void solve1(vector<veci> matrix){
     }
 }
 
-void solve2(vector<veci> matrix)
+void solve2(vector<veci> &matrix)
 {
     int n = matrix.size(),m = matrix[0].size();
     bool isCol = false;
@@ -61,7 +74,7 @@ void solve2(vector<veci> matrix)
         }
     }
 
-    it1(i,n)
+    rei(i,n)
     {
         for(int j=1;j<m;j++)
         {
@@ -94,12 +107,15 @@ int main()
 {
     int n,m;
     cin>>n>>m;
-    vector< veci (m) > v(n);
-    fo(i,n)
+    vector< veci > v(n, veci(m));
+    foi(i,n)
     {
-        fo(j,n){
+        foj(j,m){
             matip(v);
         }
     }
+    
+    solve2(v); 
+    opMatrix(v);
     return 0;
 }
