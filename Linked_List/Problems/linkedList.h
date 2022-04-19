@@ -1,4 +1,8 @@
-
+/**
+ * @brief Contains the class representation of linked list.
+ * Can change the variable type of data as per the problem needs.
+ * 
+ */
 class Node {
     int data;
 
