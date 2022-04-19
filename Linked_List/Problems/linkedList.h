@@ -55,7 +55,7 @@ class List{
             }
         }
 
-        int findIndex(int data)
+        Node * findIndex(int data)
         {
             Node *tmp= head;
             int idx = 0;
@@ -64,10 +64,7 @@ class List{
                 tmp = tmp->next;
                 idx++;
             }
-            if(tmp==nullptr)
-                return -1;
-            else
-                return idx+1;
+            return tmp;
         }
 
         Node * getHead()
