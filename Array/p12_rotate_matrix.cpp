@@ -16,7 +16,7 @@ using namespace std;
 
 void opMatrix(vector< veci> m)
 {
-    int n = m.size(), int x = m.size();
+    int n = m.size(), x = m[0].size();
     foi(i,n)
     {
         foj(j,x)
