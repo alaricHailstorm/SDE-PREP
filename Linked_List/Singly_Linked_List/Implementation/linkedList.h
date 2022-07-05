@@ -8,9 +8,15 @@ class Node {
 
     public:
         Node *next;
+        
         Node(int val){
             data = val;
             next = nullptr;
+        }
+        Node(int val, Node *nxt)
+        {
+            data = val;
+            next = nxt;
         }
 
         int getData()
