@@ -1,4 +1,14 @@
- #include<bits/stdc++.h>
+/**
+ * @file Building_Roads.cpp
+ * @author Aditya Narayan
+ * @brief Find the problem at this link "https://cses.fi/problemset/task/1666"
+ * @version 0.1
+ * @date 2022-07-05
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+#include<bits/stdc++.h>
 using namespace std;
 
 int parent[1000005]={0};

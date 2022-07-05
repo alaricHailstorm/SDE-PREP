@@ -1,3 +1,13 @@
+/**
+ * @file CONGRAPH.cpp
+ * @author Aditya Narayan
+ * @brief You can find the problem description at the given link. "https://www.spoj.com/problems/CONGRAPH/"
+ * @version 0.1
+ * @date 2022-07-05
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<bit/stdc++.h>
 using namespace std;
 

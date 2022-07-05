@@ -1,3 +1,13 @@
+/**
+ * @file bfs_problem.cpp
+ * @author Aditya Narayan
+ * @brief Given an graph of n vertices, you have to calculate the number of connected component of the given graph.
+ * @version 0.1
+ * @date 2022-07-05
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<bit/stdc++.h>
 using namespace std;
 

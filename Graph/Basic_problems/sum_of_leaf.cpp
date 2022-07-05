@@ -1,3 +1,14 @@
+/**
+ * @file sum_of_leaf.cpp
+ * @author Aditya Narayan
+ * @brief Given a rooted graph with 1 being the root of the graph, calculate the sum of the leaf node.
+ * @version 0.1
+ * @date 2022-07-05
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 
